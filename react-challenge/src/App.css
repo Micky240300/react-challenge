@@ -13,13 +13,11 @@
   color: #ffffff;
   
 }
-
 .nav-link{
   margin-right: 22px;
 }
 .navbar-collapse{
   margin-right: 200px;
-  
 }
 .navbar-brand{
   margin-left: 100px;
@@ -38,14 +36,15 @@
 #botonhermoso{
   background-color: #FF9052;
   width: 250px;
+  border: none;
 }
 #botonhermoso2{
   background-color: #FF9052;
   width: 250px;
+  border: none;
 }
 
 #form{
-
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -87,13 +86,6 @@ section .section-title {
 }
 #footer {
     background: #dfdfdf !important;
-}
-#footer h5{
-	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#ffffff;
 }
 #footer a {
     color: #ffffff;
