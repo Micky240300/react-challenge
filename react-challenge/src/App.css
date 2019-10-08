@@ -45,6 +45,10 @@
   border: none;
   box-shadow: 0 3px rgb(128, 127, 127);
 }
+#botonhermoso2:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 #form{
   margin: auto;
@@ -102,7 +106,7 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #dfdfdf !important;
+    background: #808080 !important;
 }
 #footer a {
     color: #ffffff;
