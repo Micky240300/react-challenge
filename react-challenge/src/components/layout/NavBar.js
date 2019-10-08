@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class NavBar extends Component {
     render() {
         return (
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
                 
                 <a class="navbar-brand" href="#">
                 <img src="study/study.png" width="30" height="30" class="d-inline-block align-top" alt=""></img>
