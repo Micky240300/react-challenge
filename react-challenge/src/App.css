@@ -15,6 +15,7 @@
 }
 .nav-link{
   margin-right: 22px;
+  font-weight: 900;
 }
 .navbar-collapse{
   margin-right: 200px;
@@ -54,6 +55,10 @@
   background-color: #2D9BEF;
 }
 
+#recursosD{
+  font-weight: 900;
+}
+
 img{
   padding: 2px;
 }
@@ -71,6 +76,17 @@ strong{
   font-size: 80%
 }
 
+input {
+  width: 400px;
+  padding: 0 20px;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 3;
+}
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');

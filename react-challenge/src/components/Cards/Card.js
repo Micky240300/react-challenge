@@ -16,7 +16,7 @@ export default class Card extends Component {
                 <div class="container"> 
                     <div class="row text-center">
                         <div class="col-12">
-                            <h5><strong class="text-center">Recursos Destacados</strong></h5>
+                            <h5 id ="recursosD" class="text-center">Recursos Destacados</h5>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ export default class Card extends Component {
                     </div>
 
                 </div>
-                
+
             </div>
         );
     }
