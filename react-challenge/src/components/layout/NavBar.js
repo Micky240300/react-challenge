@@ -21,9 +21,13 @@ export default class NavBar extends Component {
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Frontend</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Backend</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Android</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">UI/UX Diseño</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">IOS</a>
                         </div>
                     </li>

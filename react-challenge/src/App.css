@@ -2,16 +2,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.App {
-  text-align: center;
-}
 .navbar{
-  height: 64px;
   text-align: right !important;
-  /* font: Bold 22px/24px Open Sans; */
   letter-spacing: 0;
-  color: #ffffff;
-  
+  color: #ffffff;  
 }
 .nav-link{
   margin-right: 22px;
@@ -23,6 +17,10 @@
 .navbar-brand{
   margin-left: 100px;
 }
+li.nav-item{
+  text-align: start;
+}
+
 
 #title{
   font-display: bold;
@@ -30,10 +28,19 @@
   font-size: 64px;
 }
 
+.dropdown-menu{
+  border: 2px solid;
+}
+.dropdown-divider{
+  border-top: solid 1px #1a1a1a;
+  clear: both;
+  height: 1px;
+  width: 100%;
+}
+
 #subtitle{
   color: #ffffff;
 }
-
 #botonhermoso{
   background-color: #FF9052;
   width: 250px;
@@ -85,6 +92,7 @@ input {
   width: 400px;
   padding: 0 20px;
 }
+
 
 input,
 input::-webkit-input-placeholder {
