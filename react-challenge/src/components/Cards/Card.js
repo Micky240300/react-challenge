@@ -12,7 +12,6 @@ export default class Card extends Component {
     render() {
         return (
             <div class="container">
-
                 <div class="container"> 
                     <div class="row text-center">
                         <div class="col-12">

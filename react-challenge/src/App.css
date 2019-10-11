@@ -1,6 +1,9 @@
 *{
   font-family: 'Open Sans', sans-serif;
 }
+body{
+  background-color: #f8f6f7;
+}
 
 .navbar{
   text-align: right !important;
@@ -22,20 +25,33 @@ li.nav-item{
 }
 
 
+
 #title{
   font-display: bold;
   color: #ffffff;
   font-size: 64px;
 }
 
+#navbarNavDropdown{
+  color: red;
+}
 .dropdown-menu{
-  border: 2px solid;
+  border: 1px solid;
+  border-radius: 0px;
+  width: 10px;
+  padding: 0;
+}
+.dropdown-item{
+  margin-top: 0;
+  padding: 0;
 }
 .dropdown-divider{
   border-top: solid 1px #1a1a1a;
   clear: both;
   height: 1px;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 #subtitle{
